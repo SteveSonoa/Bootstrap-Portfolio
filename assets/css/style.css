@@ -1,0 +1,80 @@
+body {
+	background-image: url("../images/halftone.png");
+}
+
+h1 {
+	color: #ffffff;
+	font-weight: bolder;
+	font-size: 32px;
+}
+
+h2, h3 {
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
+.panelFooter {
+	background-color: #666666;
+	text-align: center;
+	color: #ffffff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin-bottom: 0px;
+	padding: 10px;
+	border-top: 5px solid #4aaaa5;
+}
+
+.pfIcons {
+	width: 100%;
+	padding: 5px;
+	max-width: 128px;
+}
+
+.profilePic {
+	width: 100%;
+	padding-bottom: 25px;
+}
+
+.headerBacking {
+	background-color: #4aaaa5;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.headerSize {
+	height: 75px;
+}
+
+/* Stops the Brand from becoming transparent upon hover */
+.navbar .navbar-brand:hover {
+    background-color: #4aaaa5;
+}
+
+.contentBackground {
+	background-color: #ffffff;
+}
+
+/* Adds a gap between elements if vertically stacked; no effect if not stacked. */
+.rowSpacer {
+	margin-bottom: 25px;
+}
+
+.btnColor {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-weight: bold;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.lineBreak {
+	clear: both;
+}
+
+.labelTeal {
+	background-color: #4aaaa5;
+}
